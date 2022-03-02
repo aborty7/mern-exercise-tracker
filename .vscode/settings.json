@@ -1,0 +1,9 @@
+{
+    "terminal.integrated.profiles.windows": {
+      "My PowerShell": {
+        "path": "pwsh.exe",
+        "args": ["-noexit", "-file", "${env:APPDATA}PowerShellmy-init-script.ps1"]
+      }
+    },
+    "terminal.integrated.defaultProfile.windows": "My PowerShell"
+  }
